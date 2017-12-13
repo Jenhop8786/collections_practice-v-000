@@ -26,9 +26,9 @@ def swap_elements_from_to(arr, inx1, inx2)
 end
 
 def reverse_array(arr)
-  arr.reverse 
+  arr.reverse
 end
 
 def kesha_maker(arr)
   arr.each{|word| word[2] = "$"}
-end 
+end
