@@ -19,3 +19,8 @@ def swap_elements(arr)
   arr[1], arr[2] = arr[2], arr[1]
   arr
 end
+
+def swap_elements_from_to(arr, inx1, inx2)
+  arr[inx1], arr[inx2] = arr[inx2] arr[inx1]
+  arr
+end
