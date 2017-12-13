@@ -32,3 +32,20 @@ end
 def kesha_maker(arr)
   arr.each{|word| word[2] = "$" }
 end
+
+def find_a(arr)
+  arr.select{|word| word.start_with?(a) == true}
+end 
+
+def sum_array(arr)
+  arr.inject{|sum, num| sum+num }
+end 
+
+def add_s(arr)
+  arr.each do |word|
+    if word == "feet"
+    else word << "s"
+    end 
+  end 
+  arr 
+end 
